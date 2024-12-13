@@ -1,0 +1,15 @@
+{
+    "name": "Playground Codespace",
+    "image": "node:20", // Using the official Node.js 20 image
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "esbenp.prettier-vscode", // Prettier for formatting
+          "dbaeumer.vscode-eslint" // ESLint for linting
+        ]
+      }
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/pnpm:1": {}
+    }
+  }
