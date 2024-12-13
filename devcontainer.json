@@ -9,6 +9,7 @@
         ]
       }
     },
+    "postCreateCommand": "pnpm add -g pnpm",
     "features": {
       "ghcr.io/devcontainers/features/pnpm:1": {}
     }
